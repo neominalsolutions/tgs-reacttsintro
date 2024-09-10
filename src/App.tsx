@@ -6,6 +6,7 @@ import UseEffectRefTypesDemo from './components/useEffect/useEffectRefTypes.demo
 import ParentChildComponentDemo from './components/parentChildComponent/parent-child.component';
 import ParentComponent from './components/parentChildComponent/children.component';
 import UseMemoDemo from './components/useMemo/useMemo.demo';
+import UseRefDemo from './components/useRef/UseRefDemo';
 
 function App() {
 	// props.name = 15;
@@ -18,8 +19,11 @@ function App() {
 
 	return (
 		<div className="App">
+			{/* UseRef Demo */}
+			<UseRefDemo />
+
 			{/* USeMemoSample */}
-			<UseMemoDemo />
+			{/* <UseMemoDemo /> */}
 
 			{/* <ParentChildComponentDemo>
 				<p></p>
