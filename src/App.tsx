@@ -7,6 +7,7 @@ import ParentChildComponentDemo from './components/parentChildComponent/parent-c
 import ParentComponent from './components/parentChildComponent/children.component';
 import UseMemoDemo from './components/useMemo/useMemo.demo';
 import UseRefDemo from './components/useRef/UseRefDemo';
+import UseReducerDemo from './components/useReducer/useReducer.demo';
 
 function App() {
 	// props.name = 15;
@@ -19,8 +20,10 @@ function App() {
 
 	return (
 		<div className="App">
+			<UseReducerDemo />
+
 			{/* UseRef Demo */}
-			<UseRefDemo />
+			{/* <UseRefDemo /> */}
 
 			{/* USeMemoSample */}
 			{/* <UseMemoDemo /> */}
