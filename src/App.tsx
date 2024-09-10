@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import UseEffectDemo from './components/useEffect/useeffect.demo';
 import UseEffectRefTypesDemo from './components/useEffect/useEffectRefTypes.demo';
+import ParentChildComponentDemo from './components/parentChildComponent/parent-child.component';
 
 function App() {
 	// props.name = 15;
@@ -15,6 +16,12 @@ function App() {
 
 	return (
 		<div className="App">
+
+
+			<ParentChildComponentDemo />
+
+			<hr></hr>
+
 			{visible && <UseEffectRefTypesDemo />}
 
 			<hr></hr>
