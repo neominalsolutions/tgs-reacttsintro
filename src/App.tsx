@@ -4,6 +4,8 @@ import './App.css';
 import UseEffectDemo from './components/useEffect/useeffect.demo';
 import UseEffectRefTypesDemo from './components/useEffect/useEffectRefTypes.demo';
 import ParentChildComponentDemo from './components/parentChildComponent/parent-child.component';
+import ParentComponent from './components/parentChildComponent/children.component';
+import UseMemoDemo from './components/useMemo/useMemo.demo';
 
 function App() {
 	// props.name = 15;
@@ -16,12 +18,22 @@ function App() {
 
 	return (
 		<div className="App">
+			{/* USeMemoSample */}
+			<UseMemoDemo />
 
+			{/* <ParentChildComponentDemo>
+				<p></p>
+			</ParentChildComponentDemo> */}
 
-			<ParentChildComponentDemo />
+			{/* <ParentComponent caption="Başlık">
+				<ParentChildComponentDemo />
+
+				<p>Paragraf</p>
+			</ParentComponent> */}
+			{/* Children Components Sample */}
 
 			<hr></hr>
-
+			{/* 
 			{visible && <UseEffectRefTypesDemo />}
 
 			<hr></hr>
@@ -34,7 +46,7 @@ function App() {
 				}}
 			>
 				Göster/Gizle
-			</button>
+			</button> */}
 		</div>
 	);
 }
